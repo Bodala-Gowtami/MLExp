@@ -50,3 +50,6 @@ lma = []
 for word in tokens_stopwords:
     lma.append(WordNetLemmatizer().lemmatize(word))
 print(lma)
+
+
+## creatiing lemmatin function
